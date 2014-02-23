@@ -9,7 +9,7 @@
 <grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1462,7 +1462,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U1" library="_hhn_MCP1703" package="SOT23A_MICROCHIP_CB" value="MCP1703-5002E/CB" x="12.319" y="2.667" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.824" y="3.972" size="1.143" layer="25" ratio="9" rot="R270"/>
+<attribute name="NAME" x="11.951" y="3.337" size="0.8128" layer="25" ratio="9" rot="R270"/>
 <attribute name="VALUE" x="9.044" y="3.972" size="1.143" layer="27" ratio="9" rot="R270"/>
 </element>
 <element name="R1" library="rcl" package="R0603" value="10K" x="20.2565" y="2.667" smashed="yes" rot="R90">
@@ -1474,7 +1474,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.399" y="5.207" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R3" library="rcl" package="R0603" value="1K" x="18.034" y="9.017" smashed="yes">
-<attribute name="NAME" x="16.383" y="10.414" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="15.494" y="9.779" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="17.399" y="7.112" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="rcl" package="R0603" value="100K" x="5.969" y="8.0645" smashed="yes">
@@ -1482,7 +1482,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="5.334" y="6.1595" size="1.27" layer="27"/>
 </element>
 <element name="C1" library="rcl" package="C0603" value="1uF" x="11.049" y="5.842" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.684" y="5.207" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.811" y="7.874" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="11.684" y="7.747" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U2" library="linear" package="TSSOP8" value="MCP602ST" x="17.399" y="6.1595" smashed="yes" rot="R270">
@@ -1548,10 +1548,10 @@ design rules under a new name.</description>
 <wire x1="8.929" y1="7.112" x2="10.199" y2="5.842" width="0.6096" layer="1"/>
 <polygon width="0.3048" layer="16" isolate="0.3048">
 <vertex x="0.635" y="10.16"/>
-<vertex x="20.955" y="10.16"/>
-<vertex x="20.955" y="5.08"/>
-<vertex x="20.32" y="5.08"/>
-<vertex x="20.32" y="0.635"/>
+<vertex x="21.59" y="10.033"/>
+<vertex x="21.59" y="5.08"/>
+<vertex x="20.701" y="4.191"/>
+<vertex x="20.701" y="0.762"/>
 <vertex x="0.635" y="0.635"/>
 </polygon>
 </signal>
@@ -1570,9 +1570,8 @@ design rules under a new name.</description>
 <wire x1="14.474" y1="5.1845" x2="16.1515" y2="5.1845" width="0.3048" layer="1"/>
 <wire x1="16.1515" y1="5.1845" x2="16.4465" y2="4.8895" width="0.3048" layer="1"/>
 <via x="16.4465" y="4.8895" extent="1-16" drill="0.4572"/>
-<wire x1="16.4465" y1="4.8895" x2="16.1925" y2="4.1275" width="0.6096" layer="16"/>
-<wire x1="16.1925" y1="4.1275" x2="17.4625" y2="2.8575" width="0.6096" layer="16"/>
-<wire x1="17.4625" y1="2.8575" x2="23.114" y2="2.9845" width="0.6096" layer="16"/>
+<wire x1="16.4465" y1="4.8895" x2="18.0975" y2="2.9845" width="0.6096" layer="16"/>
+<wire x1="18.0975" y1="2.9845" x2="23.114" y2="2.9845" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="R4" pad="2"/>
